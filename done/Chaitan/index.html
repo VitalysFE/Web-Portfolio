@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css?_v=20230418142656" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230418142656"/>
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20230418142656" rel="stylesheet" />
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20230418142656" />
+    <title>Chaitan</title>
+  </head>
+<body>
+   <div class="wrapper">
+    <header class="header">
+  <div class="header__slider swiper">
+    <div class="header__wrapper swiper-wrapper">
+      <div class="header__slide swiper-slide">
+        <img src="img/header/slide_01.jpg" alt="" />
+      </div>
+      <div class="header__slide swiper-slide">
+        <img src="img/header/slide_02.jpg" alt="" />
+      </div>
+      <div class="header__slide swiper-slide">
+        <img src="img/header/slide_03.jpg" alt="" />
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <div class="header__content">
+    <div class="header__container">
+      <div class="header__decor">
+        <img src="img/header/slider-leafs.png" alt="" />
+      </div>
+      <a href="" class="header__logo"><img src="img/logo.png" alt="" /></a>
+      <div class="header__nav nav">
+        <ul class="nav__menu">
+          <li class="nav__item"><a href="" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="" class="nav__link">About us</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Products</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Gallery</a></li>
+          <li class="nav__item"><a href="" class="nav__link">Contacts</a></li>
+        </ul>
+        <div class="nav__register register">
+          <span class="register__icon">
+            <i class="fa-solid fa-magnifying-glass icon-green"></i>
+          </span>
+          <span class="register__icon">
+            <i class="fa-solid fa-bag-shopping icon-green"></i>
+            <span class="register__cart">0</span>
+          </span>
+          <span class="register__icon">
+            <i class="fa-solid fa-user icon-green"></i>
+            <span class="register__login">login</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="header__info">
+        <h1 class="header__title">
+          Quality tea production <span class="green-text"> from India</span>
+        </h1>
+        <p class="header__text">
+          Integer quis tempor orci. Suspendisse potenti. Interdum et malesuada
+          fames ac ante ipsum primis in faucibus.
+        </p>
+        <a href="" class="header__btn btn">Read more</a>
+      </div>
+    </div>
+    <div class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="burger__menu">
+      <div class="burger__content">
+        <a href="" class="burger__logo"
+          ><img src="img/header/burger__logo.png" alt=""
+        /></a>
+        <div class="burger-dropdown__accordion">
+          <li class="burger-dropdown__item">
+            <div class="burger-dropdown__btn">
+              Home
+              <span class="burger-dropdown__icon"
+                ><i class="fa-solid fa-angle-down"></i
+              ></span>
+            </div>
+            <ul class="burger-dropdown__content">
+              <li class="burger-dropdown__item">
+                <a href="#" class="burger-dropdown__link">Tea Production</a>
+              </li>
+              <li class="burger-dropdown__item">
+                <a href="#" class="burger-dropdown__link">World Tea Company</a>
+              </li>
+            </ul>
+          </li>
+          <li class="burger-dropdown__item">
+            <div class="burger-dropdown__btn">
+              About us
+              <span class="burger-dropdown__icon"
+                ><i class="fa-solid fa-angle-down"></i
+              ></span>
+            </div>
+            <ul class="burger-dropdown__content">
+              <li class="burger-dropdown__item">
+                <a href="#" class="burger-dropdown__link">About company</a>
+              </li>
+              <li class="burger-dropdown__item">
+                <a href="#" class="burger-dropdown__link">Testimonials</a>
+              </li>
+              <li class="burger-dropdown__item">
+                <a href="#" class="burger-dropdown__link">Team</a>
+              </li>
+              <li class="burger-dropdown__item">
+                <a href="#" class="burger-dropdown__link">FAQ</a>
+              </li>
+            </ul>
+          </li>
+          <li class="burger-dropdown__item">
+            <div class="burger-dropdown__btn">
+              Gallery
+              <span class="burger-dropdown__icon"
+                ><i class="fa-solid fa-angle-down"></i
+              ></span>
+            </div>
+            <ul class="burger-dropdown__content">
+              <li class="burger-dropdown__item">
+                <a href="#" class="burger-dropdown__link">Gallery 1</a>
+              </li>
+              <li class="burger-dropdown__item">
+                <a href="#" class="burger-dropdown__link">Gallery 2</a>
+              </li>
+              <li class="burger-dropdown__item">
+                <a href="#" class="burger-dropdown__link">Gallery 3</a>
+              </li>
+            </ul>
+          </li>
+          <li class="burger-dropdown__item">
+            <a href="" class="burger-dropdown__btn"> Contacts </a>
+          </li>
+        </div>
+        <div class="burger__register">
+          <span class="burger__icon burger__icon_cart">
+            <i class="fa-solid fa-bag-shopping icon-green burger-cart"></i>
+            <span class="burger__cart">0</span>
+          </span>
+          <span class="burger__icon burger__icon_login">
+            <i class="fa-solid fa-user icon-green burger-login"></i>
+            <span class="burger__login">Login</span>
+          </span>
+        </div>
+        <div class="burger__search">
+          <input class="input__search" type="text" placeholder="Search" />
+          <a href="" class="burger__btn">
+            <i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+  <section class="about">
+    <div class="about__delivery delivery">
+      <a href="" class="delivery__item bg-light">
+        <div class="delivery__icon">
+          <img src="img/header/icon__01.png" alt="" />
+        </div>
+        <div class="delivery__info">
+          <div class="delivery__name name-dark">Free delivery</div>
+          <div class="delivery__tool">services</div>
+        </div>
+      </a>
+      <a href="" class="delivery__item bg-dark">
+        <div class="delivery__icon">
+          <img src="img/header/icon__02.png" alt="" />
+        </div>
+        <div class="delivery__info">
+          <div class="delivery__name">Professional</div>
+          <div class="delivery__tool">customer support</div>
+        </div>
+      </a>
+      <a href="" class="delivery__item bg-green">
+        <div class="delivery__icon">
+          <img src="img/header/icon__03.png" alt="" />
+        </div>
+        <div class="delivery__info">
+          <div class="delivery__name">Online store</div>
+          <div class="delivery__tool tool-dark">and payments</div>
+        </div>
+      </a>
+    </div>
+  </section>
+  <section class="production">
+    <div class="production__container">
+      <div class="production__info info">
+        <div class="production__decor decor">Production</div>
+        <div class="production__subtitle subtitle">About company</div>
+        <div class="production__title title">Quality ceylon tea production</div>
+        <div class="production__text text">
+          Integer quis tempor orci. Suspendisse potenti. Interdum et malesuada
+          fames ac ante ipsum primis in faucibus. Quisque gravida tempor diam id
+          finibus. Duis non mi augue.
+        </div>
+      </div>
+      <div class="production__advantages advantages">
+        <div class="advantages__item">
+          <div class="advantages__icon">
+            <img src="img/production/01.png" alt="" />
+          </div>
+          <div class="advantages__name">Highest quality</div>
+          <div class="advantages__text">
+            Integer quis tempor orci. Suspendisse potenti.
+          </div>
+        </div>
+        <div class="advantages__item">
+          <div class="advantages__icon">
+            <img src="img/production/02.png" alt="" />
+          </div>
+          <div class="advantages__name">Pure taste</div>
+          <div class="advantages__text">
+            Integer quis tempor orci. Suspendisse potenti.
+          </div>
+        </div>
+        <div class="advantages__item">
+          <div class="advantages__icon">
+            <img src="img/production/03.png" alt="" />
+          </div>
+          <div class="advantages__name">Wide assortment</div>
+          <div class="advantages__text">
+            Integer quis tempor orci. Suspendisse potenti.
+          </div>
+        </div>
+        <div class="advantages__item">
+          <div class="advantages__icon">
+            <img src="img/production/04.png" alt="" />
+          </div>
+          <div class="advantages__name">Eco package</div>
+          <div class="advantages__text">
+            Integer quis tempor orci. Suspendisse potenti.
+          </div>
+        </div>
+        <div class="advantages__item">
+          <div class="advantages__icon">
+            <img src="img/production/05.png" alt="" />
+          </div>
+          <div class="advantages__name">Gluten free</div>
+          <div class="advantages__text">
+            Integer quis tempor orci. Suspendisse potenti.
+          </div>
+        </div>
+        <div class="advantages__item">
+          <div class="advantages__icon">
+            <img src="img/production/06.png" alt="" />
+          </div>
+          <div class="advantages__name">Without GMO</div>
+          <div class="advantages__text">
+            Integer quis tempor orci. Suspendisse potenti.
+          </div>
+        </div>
+      </div>
+      <a href="" class="production__btn btn-2">Read more</a>
+    </div>
+  </section>
+  <section class="assortment">
+    <div class="assortment__container">
+      <div class="assortment__info info">
+        <div class="assortment__decor decor">Assortment</div>
+        <div class="assortment__subtitle subtitle">Our products</div>
+        <div class="assortment__title title">Ceylon tea assortment</div>
+        <div class="assortment__text text">
+          Integer quis tempor orci. Suspendisse potenti. Interdum et malesuada
+          fames ac ante ipsum primis in faucibus.
+        </div>
+      </div>
+
+      <div class="assortment__slider swiper">
+        <div class="assortment__wrapper swiper-wrapper">
+          <div class="assortment__slide swiper-slide">
+            <div class="assortment__mark">
+              <img src="img/assortment/mark.png" alt="" />
+            </div>
+            <div class="assortment__img">
+              <img src="img/assortment/01.jpg" alt="" />
+            </div>
+            <div class="assortment__card">
+              <div class="assortment__name">Green Tea</div>
+              <div class="assortment__description">
+                Nullam dictum molestie quam, non feugiat dui eleifend eget.
+              </div>
+            </div>
+          </div>
+          <div class="assortment__slide swiper-slide">
+            <div class="assortment__mark">
+              <img src="img/assortment/mark.png" alt="" />
+            </div>
+            <div class="assortment__img">
+              <img src="img/assortment/02.jpg" alt="" />
+            </div>
+            <div class="assortment__card">
+              <div class="assortment__name">Black Tea</div>
+              <div class="assortment__description">
+                Nullam dictum molestie quam, non feugiat dui eleifend eget.
+              </div>
+            </div>
+          </div>
+          <div class="assortment__slide swiper-slide">
+            <div class="assortment__mark">
+              <img src="img/assortment/mark.png" alt="" />
+            </div>
+            <div class="assortment__img">
+              <img src="img/assortment/03.jpg" alt="" />
+            </div>
+            <div class="assortment__card">
+              <div class="assortment__name">Organic Tea</div>
+              <div class="assortment__description">
+                Nullam dictum molestie quam, non feugiat dui eleifend eget.
+              </div>
+            </div>
+          </div>
+          <div class="assortment__slide swiper-slide">
+            <div class="assortment__mark">
+              <img src="img/assortment/mark.png" alt="" />
+            </div>
+            <div class="assortment__img">
+              <img src="img/assortment/04.jpg" alt="" />
+            </div>
+            <div class="assortment__card">
+              <div class="assortment__name">Spiced Tea</div>
+              <div class="assortment__description">
+                Nullam dictum molestie quam, non feugiat dui eleifend eget.
+              </div>
+            </div>
+          </div>
+          <div class="assortment__slide swiper-slide">
+            <div class="assortment__mark">
+              <img src="img/assortment/mark.png" alt="" />
+            </div>
+            <div class="assortment__img">
+              <img src="img/assortment/05.jpg" alt="" />
+            </div>
+            <div class="assortment__card">
+              <div class="assortment__name">White Tea</div>
+              <div class="assortment__description">
+                Nullam dictum molestie quam, non feugiat dui eleifend eget.
+              </div>
+            </div>
+          </div>
+          <div class="assortment__slide swiper-slide">
+            <div class="assortment__mark">
+              <img src="img/assortment/mark.png" alt="" />
+            </div>
+            <div class="assortment__img">
+              <img src="img/assortment/06.jpg" alt="" />
+            </div>
+            <div class="assortment__card">
+              <div class="assortment__name">Fruit Tea</div>
+              <div class="assortment__description">
+                Nullam dictum molestie quam, non feugiat dui eleifend eget.
+              </div>
+            </div>
+          </div>
+          <div class="assortment__slide swiper-slide">
+            <div class="assortment__mark">
+              <img src="img/assortment/mark.png" alt="" />
+            </div>
+            <div class="assortment__img">
+              <img src="img/assortment/07.jpg" alt="" />
+            </div>
+            <div class="assortment__card">
+              <div class="assortment__name">Pu'er Tea</div>
+              <div class="assortment__description">
+                Nullam dictum molestie quam, non feugiat dui eleifend eget.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="assortment__btn">
+          <button
+            type="button"
+            class="assortment-prev swiper-button-prev"
+          ></button>
+          <button
+            type="button"
+            class="assortment-next swiper-button-next"
+          ></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="popular">
+    <div class="popular__container">
+      <div class="popular__left">
+        <div class="popular__info">
+          <div class="popular__title title">
+            Tea is one of the <span class="white">most popular</span> drinks in
+            the world.
+          </div>
+          <div class="popular__text">
+            Tea has a complex positive effect on the body. Daily use of a cup of
+            tea is good for your health.
+          </div>
+        </div>
+        <div class="popular__items">
+          <div class="popular__item">
+            <div class="popular__icon">
+              <img src="img/popular/icon_01.png" alt="" />
+            </div>
+            <div class="popular__description">Improves brain function</div>
+          </div>
+          <div class="popular__item">
+            <div class="popular__icon">
+              <img src="img/popular/icon_02.png" alt="" />
+            </div>
+            <div class="popular__description">
+              Disinfects harmful substances
+            </div>
+          </div>
+          <div class="popular__item">
+            <div class="popular__icon">
+              <img src="img/popular/icon_03.png" alt="" />
+            </div>
+            <div class="popular__description">Promotes weight loss</div>
+          </div>
+          <div class="popular__item">
+            <div class="popular__icon">
+              <img src="img/popular/icon_04.png" alt="" />
+            </div>
+            <div class="popular__description">Prolongs life</div>
+          </div>
+        </div>
+        <a href="" class="popular__btn btn-2 btn-3 ">Read more</a>
+      </div>
+      <div class="popular__right"><img src="img/popular/01.png" alt="" /></div>
+    </div>
+  </section>
+  <section class="products">
+    <div class="prodcuts__container">
+      <div class="products__info info">
+        <div class="products__decor decor">Products</div>
+        <div class="products__subtitle subtitle">Online store</div>
+        <div class="products__title title">Popular products</div>
+        <div class="products__text text">
+          Products Integer quis tempor orci. Suspendisse potenti. Interdum et
+          malesuada fames ac ante ipsum primis in faucibus.
+        </div>
+      </div>
+
+      <div class="products__slider swiper">
+        <div class="products__wrapper swiper-wrapper">
+          <div class="products__slide swiper-slide">
+            <div class="products__rating" data-total-value="5">
+              <div class="products__star" data-item-value="5">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="4">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="3">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="2">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="1">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="products__img">
+              <img src="img/products/01.jpg" alt="" />
+            </div>
+            <div class="products__name">An Xi Mao Xie</div>
+            <div class="products__description">
+              Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+              bibendum quis, ...
+            </div>
+            <div class="products__price">$3.00</div>
+          </div>
+          <div class="products__slide swiper-slide">
+            <div class="products__rating" data-total-value="5">
+              <div class="products__star" data-item-value="5">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="4">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="3">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="2">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="1">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="products__img">
+              <img src="img/products/02.jpg" alt="" />
+            </div>
+            <div class="products__name">Phoenix Dan Cong</div>
+            <div class="products__description">
+              Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+              bibendum quis, ...
+            </div>
+            <div class="products__price">$1.99-$3.99</div>
+          </div>
+          <div class="products__slide swiper-slide">
+            <div class="products__rating" data-total-value="4">
+              <div class="products__star" data-item-value="5">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="4">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="3">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="2">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="1">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="products__img">
+              <img src="img/products/03.jpg" alt="" />
+            </div>
+            <div class="products__name">Dong Ding</div>
+            <div class="products__description">
+              Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+              bibendum quis, ...
+            </div>
+            <div class="products__price">$1.99</div>
+          </div>
+          <div class="products__slide swiper-slide">
+            <div class="products__rating" data-total-value="3">
+              <div class="products__star" data-item-value="5">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="4">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="3">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="2">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="1">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="products__img">
+              <img src="img/products/04.jpg" alt="" />
+            </div>
+            <div class="products__name">Da Hong Pao</div>
+            <div class="products__description">
+              Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+              bibendum quis, ...
+            </div>
+            <div class="products__price">$3.99</div>
+          </div>
+          <div class="products__slide swiper-slide">
+            <div class="products__rating" data-total-value="4">
+              <div class="products__star" data-item-value="5">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="4">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="3">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="2">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="1">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="products__img">
+              <img src="img/products/05.jpg" alt="" />
+            </div>
+            <div class="products__name">Tie Guan Yin</div>
+            <div class="products__description">
+              Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+              bibendum quis, ...
+            </div>
+            <div class="products__price">$1.99</div>
+          </div>
+          <div class="products__slide swiper-slide">
+            <div class="products__rating" data-total-value="3">
+              <div class="products__star" data-item-value="5">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="4">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="3">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="2">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="1">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="products__img">
+              <img src="img/products/06.jpg" alt="" />
+            </div>
+            <div class="products__name">Jin Xuan</div>
+            <div class="products__description">
+              Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+              bibendum quis, ...
+            </div>
+            <div class="products__price">$1.99</div>
+          </div>
+          <div class="products__slide swiper-slide">
+            <div class="products__rating" data-total-value="5">
+              <div class="products__star" data-item-value="5">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="4">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="3">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="2">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="1">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="products__img">
+              <img src="img/products/07.jpg" alt="" />
+            </div>
+            <div class="products__name">Lan Gui Ren</div>
+            <div class="products__description">
+              Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+              bibendum quis, ...
+            </div>
+            <div class="products__price">$2.00</div>
+          </div>
+          <div class="products__slide swiper-slide">
+            <div class="products__rating" data-total-value="5">
+              <div class="products__star" data-item-value="5">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="4">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="3">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="2">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="1">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="products__img">
+              <img src="img/products/08.jpg" alt="" />
+            </div>
+            <div class="products__name">Lan Yin</div>
+            <div class="products__description">
+              Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+              bibendum quis, ...
+            </div>
+            <div class="products__price">$3.00</div>
+          </div>
+          <div class="products__slide swiper-slide">
+            <div class="products__rating" data-total-value="4">
+              <div class="products__star" data-item-value="5">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="4">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="3">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="2">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="1">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="products__img">
+              <img src="img/products/09.jpg" alt="" />
+            </div>
+            <div class="products__name">Bai Hao Oolong</div>
+            <div class="products__description">
+              Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+              bibendum quis, ...
+            </div>
+            <div class="products__price">$1.99</div>
+          </div>
+          <div class="products__slide swiper-slide">
+            <div class="products__rating" data-total-value="5">
+              <div class="products__star" data-item-value="5">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="4">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="3">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="2">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="products__star" data-item-value="1">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="products__img">
+              <img src="img/products/10.jpg" alt="" />
+            </div>
+            <div class="products__name">Wu Yi Rou Gui</div>
+            <div class="products__description">
+              Duis et aliquam orci. Vivamus augue quam, sollicitudin quis
+              bibendum quis, ...
+            </div>
+            <div class="products__price">$3.99</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="intro">
+    <div class="intro__decor"><img src="img/intro/video-leafs.png" alt=""></div>
+    <div class="intro__container">
+      <div class="intro__info">
+       
+        <div class="intro__title title-2">
+          How to prepare <span class="green-text">green tea</span>
+        </div>
+        <div class="intro__text">Watch our amazing video tutorial:</div>
+      </div>
+      <div class="intro__img"><img src="img/intro/video.jpg" alt="" /></div>
+    </div>
+    <div class="intro__modal">
+      <div class="intro__close"><i class="fa-solid fa-xmark"></i></div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ExtFskrOHUQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </section>
+  <section class="customers">
+    <div class="customers__container">
+      <div class="customers__info">
+        <div class="customers__number">230</div>
+        <div class="customers__title title-2">Happy Customers</div>
+        <div class="customers__text">
+          Integer quis tempor orci. Suspendisse potenti. Interdum et malesuada
+          fames ac ante ipsum primis in faucibus. Quisque gravida tempor diam id
+          finibus. Duis non mi augue.
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="shop">
+    <div class="shop__container">
+      <div class="shop__info">
+        <div class="shop__text">
+          Integer quis tempor orci. Suspendisse potenti. Interdum et malesuada
+          fames ac ante ipsum primis in faucibus.
+        </div>
+        <a href="tel:8800520800" class="shop__phone">8-800-520-800</a>
+        <a href="" class="shop__btn btn-2 btn-3">Shop now</a>
+      </div>
+    </div>
+  </section>
+  <section class="sort">
+    <div class="sort__container">
+      <div class="sort__left">
+        <div class="sort__title title">
+          Tea sorts presentation and products degustation
+        </div>
+        <div class="sort__text">
+          Integer quis tempor orci. Suspendisse potenti. Interdum et malesuada
+          fames ac ante ipsum primis in faucibus.
+        </div>
+        <a href="" class="sort__btn btn btn-4">Get now</a>
+      </div>
+      <div class="sort__right">
+        <img src="img/sort/wooden-cup.jpg" alt="" />
+      </div>
+    </div>
+  </section>
+  <section class="testimonials">
+    <div class="testimonials__container">
+      <div class="testimonials__info info">
+        <div class="testimonials__decor decor">Testimonials</div>
+        <div class="testimonials__subtitle subtitle">Testimonials</div>
+        <div class="testimonials__title title">What our buyers says</div>
+      </div>
+
+      <div class="testimonials-1__slider swiper">
+        <div class="testimonials-1__wrapper swiper-wrapper">
+          <div class="testimonials-1__slide swiper-slide">
+            <img src="img/testimonials/01.jpg" alt="" />
+          </div>
+          <div class="testimonials-1__slide swiper-slide">
+            <img src="img/testimonials/02.jpg" alt="" />
+          </div>
+          <div class="testimonials-1__slide swiper-slide">
+            <img src="img/testimonials/03.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials-2__box">
+        <div class="testimonials-2__slider swiper">
+          <div class="testimonials-2__wrapper swiper-wrapper">
+            <div class="testimonials-2__slide swiper-slide">
+              <div class="testimonials-2__name">Anastasia Stone</div>
+              <div class="testimonials-2__prof">Business Analyst</div>
+              <div class="testimonials-2__text">
+                Nullam orci dui, dictum et magna sollicitudin, tempor blandit
+                erat. Maecenas suscipit tellus sit amet augue placerat fringilla a
+                id lacus. Fusce tincidunt in leo lacinia condimentum. Maecenas
+                suscipit tellus sit amet augue placerat fringilla a id lacus.
+                Suspendisse potenti. Interdum et malesuada fames ac ante ipsum
+                primis in faucibus.
+              </div>
+              <div class="testimonials-2__quote"></div>
+            </div>
+            <div class="testimonials-2__slide swiper-slide">
+              <div class="testimonials-2__name">Patricia James</div>
+              <div class="testimonials-2__prof">Top Manager</div>
+              <div class="testimonials-2__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                facilisis at turpis eu faucibus. In dignissim, enim eu ornare
+                aliquet, metus ex tempor neque, sit amet efficitur turpis lorem et
+                odio. Nam congue in orci at facilisis. In efficitur, leo non
+                commodo lacinia, odio metus sodales purus, sed consequat lectus mi
+                in purus.
+              </div>
+              <div class="testimonials-2__quote"></div>
+            </div>
+            <div class="testimonials-2__slide swiper-slide">
+              <div class="testimonials-2__name">Steven Rashford</div>
+              <div class="testimonials-2__prof">Truck Driver</div>
+              <div class="testimonials-2__text">
+                Duis et tellus imperdiet, lacinia risus id, tincidunt ipsum.
+                Integer euismod elit vel nibh commodo, at consequat nisl rhoncus.
+                Aliquam tempor lorem odio, non aliquam nunc egestas in. Proin
+                rutrum justo ac lorem pellentesque pretium.
+              </div>
+              <div class="testimonials-2__quote"></div>
+            </div>
+          </div>
+  
+      
+        </div>
+       <div class="testimonials__btn">
+        <button type="button" class="testimonials-prev swiper-button-prev"></button>
+        <button type="button" class="testimonials-next swiper-button-next"></button>
+       </div>
+      </div>
+    </div>
+  </section>
+  <section class="brands">
+    <div class="brands__container">
+      <div class="brands__item">
+        <div class="brands__img"><img src="img/brands/01.png" alt=""></div>
+        <div class="brands__img"><img src="img/brands/01.png" alt=""></div>
+      </div>
+      
+      <div class="brands__item">
+        <div class="brands__img"><img src="img/brands/02.png" alt=""></div>
+        <div class="brands__img"><img src="img/brands/02.png" alt=""></div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img"><img src="img/brands/03.png" alt=""></div>
+        <div class="brands__img"><img src="img/brands/03.png" alt=""></div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img"><img src="img/brands/04.png" alt=""></div>
+        <div class="brands__img"><img src="img/brands/04.png" alt=""></div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img"><img src="img/brands/05.png" alt=""></div>
+        <div class="brands__img"><img src="img/brands/05.png" alt=""></div>
+      </div>
+      <div class="brands__item">
+        <div class="brands__img"><img src="img/brands/06.png" alt=""></div>
+        <div class="brands__img"><img src="img/brands/06.png" alt=""></div>
+      </div>
+      
+    </div>
+  </section>
+</main>
+
+    <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__top">
+      <a href="" class="footer__logo"
+        ><img src="img/footer/logo.png" alt=""
+      /></a>
+      <div class="footer__social">
+        <div class="footer__follow"></div>
+        <ul class="footer__items">
+          <a href="#" class="footer__link"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="#" class="footer__link"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="#" class="footer__link"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" class="footer__link"
+            ><i class="fa-brands fa-google-plus-g"></i
+          ></a>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__col">
+        <div class="footer__title">About us</div>
+        <div class="footer__info">
+          <div class="footer__location">
+            <span class="green-text">Addres:</span> 21 Newstreet, Chaitan town,
+            India, 109-74
+          </div>
+          <div class="footer__contacts">
+            <a href="tel:+70080050800" class="footer__contact">
+              <span class="footer__icon"
+                ><i class="fa-solid fa-phone"></i
+              ></span>
+              +700800-50-800</a
+            >
+            <a href="mailto:manager@chaitan.md" class="footer__contact">
+              <span class="footer__icon"
+                ><i class="fa-solid fa-envelope"></i
+              ></span>
+              manager@chaitan.md</a
+            >
+            <a href="" class="footer__contact">
+              <span class="footer__icon"
+                ><i class="fa-brands fa-skype"></i
+              ></span>
+              chaitan</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer__col">
+        <div class="footer__title">Explore</div>
+        <div class="footer__nav">
+          <a href="" class="footer__lin">Home</a>
+          <a href="" class="footer__lin">About us</a>
+          <a href="" class="footer__lin">Products</a>
+          <a href="" class="footer__lin">Gallery</a>
+          <a href="" class="footer__lin">Contacts</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <div class="footer__title">Recent news</div>
+        <a href="" class="footer__new">
+          <div class="footer__img"><img src="img/footer/01.jpg" alt="" /></div>
+          <div class="footer-new__info">
+            <div class="footer-new__title">February 21, 2018</div>
+            <div class="footer-new__text">
+              3 ways how to test nutaral indian tea
+            </div>
+          </div>
+        </a>
+        <a href="" class="footer__new">
+          <div class="footer__img"><img src="img/footer/02.jpg" alt="" /></div>
+          <div class="footer-new__info">
+            <div class="footer-new__title">February 21, 2018</div>
+            <div class="footer-new__text">
+              Results of international tea conference ’18
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+   </div>
+    
+
+     <!-- FONT AWESOME -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js?_v=20230418142656" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- SWIPER -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230418142656"></script>
+<!-- AOS ANIMATION -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20230418142656"></script>
+<!-- CUSTOM JS -->
+<script src="js/app.min.js?_v=20230418142656"></script>
+</body>
+</html>

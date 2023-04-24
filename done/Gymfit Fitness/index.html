@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gymfit - Fitness site</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__nav nav">
+            <a href="#" class="nav__logo">
+              <img src="img/logo.svg" alt="" />
+            </a>
+            <div class="nav__content">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">About us</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Courses</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Schedule</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Team</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Blog</a>
+                </li>
+              </ul>
+              <a href="#" class="nav__btn btn">Contact us</a>
+            </div>
+            <div class="nav__burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="banner">
+          <div class="banner__container">
+            <!-- Оболочка слайдера -->
+            <div class="banner__slider swiper">
+              <!-- Двигающееся часть слайдера -->
+              <div class="banner__wrapper swiper-wrapper">
+                <!-- Слайд -->
+                <div class="banner__slide swiper-slide">
+                  <div class="banner__img">
+                    <img src="img/slider/01.png" alt="" />
+                  </div>
+                  <div class="banner__inner">
+                    <div class="banner__info">
+                      <div class="banner__name banner__name_small">
+                        BUILD YOUR
+                      </div>
+                      <div class="banner__name banner__name_big">Body</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="banner__slide swiper-slide">
+                  <div class="banner__img">
+                    <img src="img/slider/02.png" alt="" />
+                  </div>
+                  <div class="banner__info">
+                    <div class="banner__name banner__name_small">
+                      BUILD YOUR
+                    </div>
+                    <div class="banner__name banner__name_big">Shape</div>
+                  </div>
+                </div>
+                <div class="banner__slide swiper-slide">
+                  <div class="banner__img">
+                    <img src="img/slider/03.png" alt="" />
+                  </div>
+                  <div class="banner__info">
+                    <div class="banner__name banner__name_small">Get free</div>
+                    <div class="banner__name banner__name_big">Diet</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Если нужна навигация (влево/вправо) -->
+              <button type="button" class="swiper-button-prev"></button>
+              <button type="button" class="swiper-button-next"></button>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="about__container">
+            <div class="about__left">
+              <img src="img/about/about.png" alt="" />
+            </div>
+            <div class="about__right">
+              <h3 class="about__title title">
+                ABOUT <span class="blue">GYMFIT</span>
+              </h3>
+              <p class="about__text text">
+                Morbi commodo sapien at risus aliquam dapibus. Quisque
+                ullamcorper ex non leo blandit porta. Duis purus sapien, blandit
+                non sem quis, mollis vehicula sapien. Fusce mollis mauris vitae
+                enim varius scelerisque id id ex. Maecenas vel iaculis purus, a
+                ornare quam.
+              </p>
+              <p class="about__text text">
+                Morbi commodo sapien at risus aliquam dapibus. Quisque
+                ullamcorper ex non leo blandit porta. Duis purus sapien, blandit
+                non sem quis, mollis vehicula sapien.
+              </p>
+              <a href="#" class="about__btn btn">get started</a>
+            </div>
+          </div>
+        </section>
+        <section class="team">
+          <div class="team__container">
+            <div class="team__info">
+              <h3 class="team__title title">
+                TEAM OF EXPERT <span class="blue">COACHES</span>
+              </h3>
+              <p class="team__text text">
+                Vivamus in imperdiet libero, at dapibus eros. In varius lacinia
+                gravida. Aenean dignissim nulla nibh.
+              </p>
+            </div>
+            <div class="team__gallery">
+              <div class="team__item">
+                <img src="img/team/01.png" alt="" />
+                <div class="team__name">Joshua Franklin</div>
+              </div>
+              <div class="team__item">
+                <img src="img/team/02.png" alt="" />
+                <div class="team__name">Reflina Deovanger</div>
+              </div>
+              <div class="team__item">
+                <img src="img/team/03.png" alt="" />
+                <div class="team__name">Devin Tremson</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="our">
+          <div class="our__container">
+            <div class="our__info">
+              <h3 class="our__title title">
+                <span class="blue">Our</span> courses
+              </h3>
+            </div>
+            <!-- Оболочка слайдера -->
+            <div class="our__slider swiper">
+              <!-- Двигающееся часть слайдера -->
+              <div class="our__wrapper swiper-wrapper">
+                <!-- Слайд -->
+                <div class="our__slide swiper-slide">
+                  <svg class="our__icon" width="60" height="60">
+                    <use xlink:href="img/our/01.svg#icon"></use>
+                  </svg>
+                  <div class="our__name text">Gym</div>
+                  <div class="our__undertitle">Kettlebells Course</div>
+                  <p class="our__text text">
+                    Morbi commodo sapien at risus aliquam dapibus. Quisque
+                    ullamcorper ex non leo blandit porta.
+                  </p>
+                  <a href="#" class="our__btn">
+                    <div class="our__read">Read more</div>
+                    <div class="our__img">
+                      <img src="img/our/btn-arrow.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+                <div class="our__slide swiper-slide">
+                  <svg class="our__icon" width="60" height="60">
+                    <use xlink:href="img/our/02.svg#icon"></use>
+                  </svg>
+                  <div class="our__name text">Gym</div>
+                  <div class="our__undertitle">Weight Lifting</div>
+                  <p class="our__text text">
+                    Morbi commodo sapien at risus aliquam dapibus. Quisque
+                    ullamcorper ex non leo blandit porta.
+                  </p>
+                  <a href="#" class="our__btn">
+                    <div class="our__read">Read more</div>
+                    <div class="our__img">
+                      <img src="img/our/btn-arrow.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+                <div class="our__slide swiper-slide">
+                  <svg class="our__icon" width="60" height="60">
+                    <use xlink:href="img/our/03.svg#icon"></use>
+                  </svg>
+                  <div class="our__name text">Gym</div>
+                  <div class="our__undertitle">Running</div>
+                  <p class="our__text text">
+                    Morbi commodo sapien at risus aliquam dapibus. Quisque
+                    ullamcorper ex non leo blandit porta.
+                  </p>
+                  <a href="#" class="our__btn">
+                    <div class="our__read">Read more</div>
+                    <div class="our__img">
+                      <img src="img/our/btn-arrow.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+                <div class="our__slide swiper-slide">
+                  <svg class="our__icon" width="60" height="60">
+                    <use xlink:href="img/our/04.svg#icon"></use>
+                  </svg>
+                  <div class="our__name text">Gym</div>
+                  <div class="our__undertitle">Meditation</div>
+                  <p class="our__text text">
+                    Morbi commodo sapien at risus aliquam dapibus. Quisque
+                    ullamcorper ex non leo blandit porta.
+                  </p>
+                  <a href="#" class="our__btn">
+                    <div class="our__read">Read more</div>
+                    <div class="our__img">
+                      <img src="img/our/btn-arrow.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+                <div class="our__slide swiper-slide">
+                  <svg class="our__icon" width="60" height="60">
+                    <use xlink:href="img/our/05.svg#icon"></use>
+                  </svg>
+                  <div class="our__name text">Gym</div>
+                  <div class="our__undertitle">Body Building</div>
+                  <p class="our__text text">
+                    Morbi commodo sapien at risus aliquam dapibus. Quisque
+                    ullamcorper ex non leo blandit porta.
+                  </p>
+                  <a href="#" class="our__btn">
+                    <div class="our__read">Read more</div>
+                    <div class="our__img">
+                      <img src="img/our/btn-arrow.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+                <div class="our__slide swiper-slide">
+                  <svg class="our__icon" width="60" height="60">
+                    <use xlink:href="img/our/06.svg#icon"></use>
+                  </svg>
+                  <div class="our__name text">Gym</div>
+                  <div class="our__undertitle">Cardio Exercises</div>
+                  <p class="our__text text">
+                    Morbi commodo sapien at risus aliquam dapibus. Quisque
+                    ullamcorper ex non leo blandit porta.
+                  </p>
+                  <a href="#" class="our__btn">
+                    <div class="our__read">Read more</div>
+                    <div class="our__img">
+                      <img src="img/our/btn-arrow.svg" alt="" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- Если нужна пагинация -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+        <section class="pricing">
+          <div class="pricing__container">
+            <div class="pricing__info">
+              <div class="pricing__title title">
+                Our <span class="blue">pricing</span>
+              </div>
+            </div>
+            <div class="pricing__items">
+              <div class="pricing__inner">
+                <div class="pricing__item">
+                  <div class="pricing__name">Basic Account</div>
+                  <div class="pricing__undertitle text">
+                    Only for first month
+                  </div>
+                  <p class="pricing__text">
+                    Vivamus in imperdiet libero, at dapibus eros. In varius
+                    lacinia gravida. Aenean dignissim nulla nibh.
+                  </p>
+                  <div class="pricing__price">$49.00</div>
+                  <a href="#" class="pricing__btn btn">Buy now</a>
+                </div>
+                <div class="pricing__item">
+                  <div class="pricing__name">Standard Account</div>
+                  <div class="pricing__undertitle text">
+                    Only for first month
+                  </div>
+                  <p class="pricing__text">
+                    Vivamus in imperdiet libero, at dapibus eros. In varius
+                    lacinia gravida. Aenean dignissim nulla nibh.
+                  </p>
+                  <div class="pricing__price">$69.00</div>
+                  <a href="#" class="pricing__btn btn">Buy now</a>
+                </div>
+                <div class="pricing__item">
+                  <div class="pricing__name">Premium Account</div>
+                  <div class="pricing__undertitle text">
+                    Only for first month
+                  </div>
+                  <p class="pricing__text">
+                    Vivamus in imperdiet libero, at dapibus eros. In varius
+                    lacinia gravida. Aenean dignissim nulla nibh.
+                  </p>
+                  <div class="pricing__price">$99.00</div>
+                  <a href="#" class="pricing__btn btn">Buy now</a>
+                </div>
+              </div>
+              <div class="pricing__img">
+                <img src="img/pricing/girl.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="blog">
+          <div class="blog__container">
+            <div class="blog__info">
+              <h3 class="blog__title title">
+                Our <span class="blue">blog</span>
+              </h3>
+            </div>
+            <div class="blog__items">
+              <div class="blog__item">
+                <div class="blog__img">
+                  <img src="img/blog/01.png" alt="" />
+                </div>
+            <div class="blog__box">
+              <div class="blog__date">05 Aug, 2018</div>
+              <div class="blog__description">
+                Vestibulum sodales, nisi et gravida cidunt, felis est auctor
+              </div>
+              <p class="blog__text text">
+                Mauris tincidunt felis ipsum, sed dictum augue blandit ut.
+                Lorem ipsum dolor amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="blog__btn">
+                <div class="blog__reaad">Read more</div>
+               <div class="blog__arrow"><i class="fa-solid fa-arrow-right"></i></div>
+              </a>
+            </div>
+              </div>
+              <div class="blog__item">
+                <div class="blog__img">
+                  <img src="img/blog/02.png" alt="" />
+                </div>
+            <div class="blog__box">
+              <div class="blog__date">05 Aug, 2018</div>
+              <div class="blog__description">
+                Vestibulum sodales, nisi et gravida cidunt, felis est auctor
+              </div>
+              <p class="blog__text text">
+                Mauris tincidunt felis ipsum, sed dictum augue blandit ut.
+                Lorem ipsum dolor amet, consectetur adipiscing elit.
+              </p>
+              <a href="#" class="blog__btn">
+                <div class="blog__reaad">Read more</div>
+                <div class="blog__arrow"><i class="fa-solid fa-arrow-right"></i></div>
+              </a>
+            </div>
+              </div>
+              <div class="blog__item">
+                <div class="blog__img">
+                  <img src="img/blog/03.png" alt="" />
+                </div>
+              <div class="blog__box">
+                <div class="blog__date">05 Aug, 2018</div>
+                <div class="blog__description">
+                  Vestibulum sodales, nisi et gravida cidunt, felis est auctor
+                </div>
+                <p class="blog__text text">
+                  Mauris tincidunt felis ipsum, sed dictum augue blandit ut.
+                  Lorem ipsum dolor amet, consectetur adipiscing elit.
+                </p>
+                <a href="#" class="blog__btn">
+                  <div class="blog__reaad">Read more</div>
+                  <div class="blog__arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="get">
+          <div class="get__container">
+            <div class="get__left">
+              <div class="get__img">
+                <img src="img/touch/team.png" alt="" />
+              </div>
+            </div>
+            <div class="get__right">
+              <div class="get__info">
+                <div class="get__title title">
+                  Get in <span class="blue">touch</span>
+                </div>
+              </div>
+              <div class="get__form form">
+                <div class="form__title">Send us a message</div>
+                <input type="text" class="form__input" placeholder="Name*" />
+                <input
+                  type="tel"
+                  class="form__input"
+                  placeholder="Phone No.*"
+                />
+                <input type="email" class="form__input" placeholder="Email*" />
+                <textarea
+                  class="form__textarea"
+                  placeholder="Message*"
+                ></textarea>
+                <a href="" class="get__btn btn">Send message</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="gallery">
+          <div class="gallery__container">
+            <!-- Оболочка слайдера -->
+            <div class="gallery__slider swiper">
+              <!-- Двигающееся часть слайдера -->
+              <div class="gallery__wrapper swiper-wrapper">
+                <!-- Слайд -->
+                <div class="gallery__slide swiper-slide">
+                  <div class="gallery__img">
+                    <img src="img/gallery/01.png" alt="" />
+                  </div>
+                </div>
+                <div class="gallery__slide swiper-slide">
+                  <div class="gallery__img">
+                    <img src="img/gallery/02.png" alt="" />
+                  </div>
+                </div>
+                <div class="gallery__slide swiper-slide">
+                  <div class="gallery__img">
+                    <img src="img/gallery/03.png" alt="" />
+                  </div>
+                </div>
+                <div class="gallery__slide swiper-slide">
+                  <div class="gallery__img">
+                    <img src="img/gallery/04.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- Если нужна пагинация -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__col">
+            <a href="" class="footer__logo"><img src="img/footer-logo.svg" alt=""/></a>
+            <p class="footer__text">
+              ligula sed porta cursus, lectus ligula interdum tortor, vitae
+              tempor leo eros lobortis ante. Integer semper, metus in tincidunt
+              euismod.
+            </p>
+            <ul class="footer__social social">
+              <li class="social__item"><a href="#" class="social__link"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li class="social__item"><a href="#" class="social__link"><i class="fa-brands fa-twitter"></i></a></li>
+              <li class="social__item"><a href="#" class="social__link"><i class="fa-brands fa-instagram"></i></a></li>
+              <li class="social__item"><a href="#" class="social__link"><i class="fa-brands fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <div class="footer__name">Links</div>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="" class="footer__link">Home</a></li>
+              <li class="footer__item"><a href="" class="footer__link">About us</a></li>
+              <li class="footer__item"><a href="" class="footer__link">Courses</a></li>
+              <li class="footer__item"><a href="" class="footer__link">Schedule</a></li>
+              <li class="footer__item"><a href="" class="footer__link">Blog</a></li>
+              <li class="footer__item"><a href="" class="footer__link">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col_third">
+            <div class="footer__name">Recent post</div>
+            <a href="" class="footer__post post">
+              <div class="post__img"><img src="img/blog/01.png" alt=""></div>
+              <div class="post__news">Etiam venenatis nisl in orci posuere ultricies.</div>
+            </a>
+            <a href="" class="footer__post post">
+              <div class="post__img"><img src="img/blog/02.png" alt=""></div>
+              <div class="post__news">Etiam venenatis nisl in orci posuere ultricies.</div>
+            </a>
+            <a href="" class="footer__post post">
+              <div class="post__img"><img src="img/blog/03.png" alt=""></div>
+              <div class="post__news">Etiam venenatis nisl in orci posuere ultricies.</div>
+            </a>
+          </div>
+          <div class="footer__col">
+            <div class="footer__name">Get In Touch</div>
+            <div class="footer__contacts contacts">
+              <div class="contacts__item">
+                <div class="contacts__icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contacts__num">
+                  <a href="tel:1231234123" class="contacts__link">123-1234-123</a>
+                <a href="tel:0031234123" class="contacts__link">003-1234-123</a>
+                </div>
+              </div>
+              <div class="contacts__item">
+                <div class="contacts__icon"><i class="fa-solid fa-envelope"></i></div>
+               <div class="contacts__num">
+                <a href="mailto:fitness@yourdomain.com" class="contacts__link">fitness@yourdomain.com</a>
+                <a href="mailto:fc@yourdomain.com" class="contacts__link">fc@yourdomain.com</a>
+               </div>
+              </div>
+              <div class="contacts__item">
+                <div class="contacts__icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contacts__num">
+                  <div class="contacts__link">1011Santa Monica boulevard
+                    Los Angeles</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          &copy; 2022 <span class="blue">GYMFIT</span> . All rights reserved.
+        </div>
+      </footer>
+    </div>
+
+
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+      integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- SWIPER -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- CUSTOM JS -->
+    <script src="js/app.js"></script>
+  </body>
+</html>

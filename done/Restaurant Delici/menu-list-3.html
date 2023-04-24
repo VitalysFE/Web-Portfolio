@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Delici</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- SWIPER -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <!-- FLATPICKR -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <!-- CUSTOM STYLES -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- <div id="preloader"></div> -->
+
+<header class="header">
+
+  <!-- MOBILE BAR START -->
+  <div class="mobile__bar">
+    <div class="mobile__content">
+
+      <ul class="mobile__menu">
+        <a href="index.html" class="mobile__logo"><img src="i/logo.png" alt=""></a>
+        <li class="mobile__item"><a href="#" class="mobile__link small-link">Home</a></li>
+        <li id="mobileMenu" class="mobile__item mobile__item_dropdown mobile__link_icon">
+          <a href="#" class="mobile__link small-link">Menus</a>
+        </li>
+        <ul id="dropdown-mobile" class="dropdown-mobile">
+          <li class="mobile__item mobile__item_decor"><a href="menu-list-1.html" class="mobile__link small-link">Menu
+              List 1</a></li>
+          <li class="mobile__item mobile__item_decor"><a href="menu-list-2.html" class="mobile__link small-link">Menu
+              List 2</a></li>
+          <li class="mobile__item mobile__item_decor"><a href="menu-list-3.html" class="mobile__link small-link">Menu
+              List 3</a></li>
+          <li class="mobile__item mobile__item_decor"><a href="menu-list-4.html" class="mobile__link small-link">Menu
+              List 4</a></li>
+        </ul>
+
+        <li class="mobile__item"><a href="about.html" class="mobile__link small-link">About us</a></li>
+        <li class="mobile__item"><a href="chefs.html" class="mobile__link small-link">Our chefs</a></li>
+        <li class="mobile__item"><a href="contact.html" class="mobile__link small-link">Contact</a></li>
+      </ul>
+      <div class="mobile__info">
+        <div class="mobile__title">Visit us</div>
+        <div class="mobile__text">
+          <p>Restaurant St, Delicious City, London 9578, UK</p>
+          <p>Open: 9.30 am - 2.30pm</p>
+          <p><a href="mailto:booking@domainame.com" class="mobile__mail">booking@domainame.com</a></p>
+        </div>
+        <div class="mobile__decor"></div>
+        <div class="mobile__contacts">
+          <div class="contacts__title subtitle">Booking request</div>
+          <a href="tel:88123123456" class="contacts__phone phone-big">+88-123-123456</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MOBILE BAR END -->
+
+  <div class="header__content">
+    <div class="header__top">
+      <div class="header__top-left">
+        <span class="location">Restaurant St, Delicious City, London 9578, UK</span>
+        <span class="time">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+      <div class="header__top-right">
+        <a href="tel:11234567890" class="phone">+1 123 456 7890</a>
+        <a href="mailto:booking@restaurant.com" class="mail">booking@restaurant.com</a>
+      </div>
+    </div>
+    <div class="header__lower lower">
+      <a href="index.html" class="lower__logo"><img src="i/logo.png" alt="delici logo"></a>
+      <div class="lower__menu-content">
+        <ul class="lower__menu">
+          <li class="lower__item"><a href="index.html" class="lower__link link">Home</a></li>
+          <li class="lower__item">
+            <a href="#" id="menuLink" class="lower__link link lower__link_icon">Menus</a>
+          </li>
+          <li class="lower__item"><a href="about.html" class="lower__link link">About us</a></li>
+          <li class="lower__item"><a href="chefs.html" class="lower__link link">Our chefs</a></li>
+          <li class="lower__item"><a href="contact.html" class="lower__link link">Contact</a></li>
+        </ul>
+
+        <a href="reservation.html" class="lower__btn btn-1">
+          <div class="btn__text-one black">Find a table</div>
+          <div class="btn__text-two sand">Find a table</div>
+        </a>
+      </div>
+      <div class="burger__btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- DROPDOWN MENU START -->
+  <div id="dropdown-menu__box" class="dropdown-menu__box">
+    <ul class="dropdown-menu">
+      <div class="dropdown-menu__content">
+        <div class="dropdown-menu__inner">
+          <li class="dropdown__item">
+            <a href="menu-list-1.html" class="dropdown__img"><img src="i/header/01.jpg" alt=""></a>
+            <span class="dropdown__title">Menu list 1</ы>
+          </li>
+          <li class="dropdown__item">
+            <a href="menu-list-2.html" class="dropdown__img"><img src="i/header/02.jpg" alt=""></a>
+            <span class="dropdown__title">Menu list 2</span>
+          </li>
+          <li class="dropdown__item">
+            <a href="menu-list-3.html" class="dropdown__img"><img src="i/header/03.jpg" alt=""></a>
+            <span class="dropdown__title">Menu list 3</span>
+          </li>
+          <li class="dropdown__item">
+            <a href="menu-list-4.html" class="dropdown__img"><img src="i/header/04.jpg" alt=""></a>
+            <span class="dropdown__title">Menu list 4</span>
+          </li>
+
+        </div>
+      </div>
+
+    </ul>
+  </div>
+  <!-- DROPDOWN MENU END -->
+</header>
+
+  <main class="page">
+    <div class="page__banner banner">
+      <div class="banner__content">
+        <div class="banner__container">
+          <div class="banner__info">
+            <div class="banner__toptitle toptitle">DELICIOUS & AMAZING</div>
+            <div class="banner__decor decor"><img src="i/separator.svg" alt=""></div>
+            <div class="banner__title title">Our Menu 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page__starter starter">
+      <div class="starter__container">
+        <div class="starter__content">
+          <div class="starter__info">
+            <div class="starter__toptitle toptitle">STARTER MENU</div>
+            <div class="starter__decor decor"><img src="i/separator.svg" alt=""></div>
+            <div class="starter__title title">Appetizers</div>
+          </div>
+          <div class="menu__list">
+            <div class="menu__wrapper">
+              <div class="menu__box">
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_01.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Greek Salad</div>
+                      <div class="menu__price price">$25.50</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_02.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Lasagne </div>
+                      <div class="menu__price price">$40.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_03.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Butternut Pumpkin</div>
+                      <div class="menu__price price">$10.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_04.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Tokusen Wagyu </div>
+                      <div class="menu__price price">$39.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_05.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Olivas Rellenas</div>
+                      <div class="menu__price price">$25.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_06.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Opu Fish</div>
+                      <div class="menu__price price">$49.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page__fresh fresh">
+      <div class="fresh__container">
+        <div class="fresh__content">
+          <div class="fresh__info">
+            <div class="fresh__toptitle toptitle">FRESH & HYGINE</div>
+            <div class="fresh__decor decor"><img src="i/separator.svg" alt=""></div>
+            <div class="fresh__title title">Main Dishes</div>
+          </div>
+          <div class="menu__list">
+            <div class="menu__wrapper">
+              <div class="menu__box">
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_01.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Greek Salad</div>
+                      <div class="menu__price price">$25.50</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_02.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Lasagne </div>
+                      <div class="menu__price price">$40.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_03.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Butternut Pumpkin</div>
+                      <div class="menu__price price">$10.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_04.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Tokusen Wagyu </div>
+                      <div class="menu__price price">$39.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_05.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Olivas Rellenas</div>
+                      <div class="menu__price price">$25.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/main_06.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Opu Fish</div>
+                      <div class="menu__price price">$49.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page__events events">
+      <div class="events__container">
+        <div class="events__content">
+        <div class="events__form">
+          <div class="events__info decor-left">
+            <div class="events__title title">Private Events</div>
+            <div class="events__text small-text">
+              <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</p>
+            </div>
+            <div class="events__decor decor-2"></div>
+            <div class="events__booking subtitle">Booking Request</div>
+            <a href="tel:88123123456" class="events__phone phone-big">+88-123-123456</a>
+            <a href="" class="events__btn btn-1">
+              <div class="btn__text-one black">Book now</div>
+              <div class="btn__text-two sand">Book now</div>
+            </a>
+          </div>
+          <div class="events__img-box mt">
+            <div class="events__img"><img src="i/menu/menu_03_01.jpg" alt=""></div>
+            <div class="events__img"><img src="i/menu/menu_03_02.jpg" alt=""></div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="page__events events">
+      <div class="events__container">
+        <div class="events__content">
+          <div class="events__form">
+            <div class="events__img-box mb">
+              <div class="events__img"><img src="i/menu/menu_03_03.jpg" alt=""></div>
+              <div class="events__img"><img src="i/menu/menu_03_04.jpg" alt=""></div>
+            </div>
+            <div class="events__info decor-right">
+              <div class="events__title title">Banquet Hall</div>
+              <div class="events__text small-text">
+                <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</p>
+              </div>
+              <div class="events__decor decor-2"></div>
+              <div class="events__booking subtitle">Booking Request</div>
+              <a href="tel:88123123456" class="events__phone phone-big">+88-123-123456</a>
+              <a href="" class="events__btn btn-1">
+                <div class="btn__text-one black">Book now</div>
+                <div class="btn__text-two sand">Book now</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page__sweet sweet">
+      <div class="sweet__container">
+        <div class="sweet__content">
+          <div class="starter__info">
+            <div class="starter__toptitle toptitle">SWEET & SWEET</div>
+            <div class="starter__decor decor"><img src="i/separator.svg" alt=""></div>
+            <div class="starter__title title">Desserts</div>
+          </div>
+          <div class="menu__list">
+            <div class="menu__wrapper">
+              <div class="menu__box">
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/dessert-1.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Greek Salad</div>
+                      <div class="menu__price price">$25.50</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/dessert-2.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Lasagne </div>
+                      <div class="menu__price price">$40.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/dessert-3.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Butternut Pumpkin</div>
+                      <div class="menu__price price">$10.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/dessert-4.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Tokusen Wagyu </div>
+                      <div class="menu__price price">$39.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/dessert-5.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Olivas Rellenas</div>
+                      <div class="menu__price price">$25.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="menu__item">
+                  <a href="" class="menu__img"><img src="i/menu/dessert-6.png" alt="Menu"></a>
+                  <div class="menu__inner">
+                    <div class="menu__box-name">
+                      <div class="menu__name">Opu Fish</div>
+                      <div class="menu__price price">$49.00</div>
+                    </div>
+                    <div class="menu__description">
+                      <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page__drink drink">
+      <div class="drink__container">
+        <div class="drink__content">
+          <div class="drink__info">
+            <div class="drink__toptitle toptitle">HOT & COLD</div>
+            <div class="drink__decor decor"><img src="i/separator.svg" alt=""></div>
+            <div class="drink__title title">Drinks Menu</div>
+        </div>
+        <div class="menu__list">
+          <div class="menu__wrapper">
+            <div class="menu__box">
+              <div class="menu__item">
+                <a href="" class="menu__img"><img src="i/menu/drink-1.png" alt="Menu"></a>
+                <div class="menu__inner">
+                  <div class="menu__box-name">
+                    <div class="menu__name">Greek Salad</div>
+                    <div class="menu__price price">$25.50</div>
+                  </div>
+                  <div class="menu__description">
+                    <p>Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <a href="" class="menu__img"><img src="i/menu/drink-2.png" alt="Menu"></a>
+                <div class="menu__inner">
+                  <div class="menu__box-name">
+                    <div class="menu__name">Lasagne </div>
+                    <div class="menu__price price">$40.00</div>
+                  </div>
+                  <div class="menu__description">
+                    <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <a href="" class="menu__img"><img src="i/menu/drink-3.png" alt="Menu"></a>
+                <div class="menu__inner">
+                  <div class="menu__box-name">
+                    <div class="menu__name">Butternut Pumpkin</div>
+                    <div class="menu__price price">$10.00</div>
+                  </div>
+                  <div class="menu__description">
+                    <p>Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <a href="" class="menu__img"><img src="i/menu/drink-4.png" alt="Menu"></a>
+                <div class="menu__inner">
+                  <div class="menu__box-name">
+                    <div class="menu__name">Tokusen Wagyu </div>
+                    <div class="menu__price price">$39.00</div>
+                  </div>
+                  <div class="menu__description">
+                    <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <a href="" class="menu__img"><img src="i/menu/drink-5.png" alt="Menu"></a>
+                <div class="menu__inner">
+                  <div class="menu__box-name">
+                    <div class="menu__name">Olivas Rellenas</div>
+                    <div class="menu__price price">$25.00</div>
+                  </div>
+                  <div class="menu__description">
+                    <p>Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <a href="" class="menu__img"><img src="i/menu/drink-6.png" alt="Menu"></a>
+                <div class="menu__inner">
+                  <div class="menu__box-name">
+                    <div class="menu__name">Opu Fish</div>
+                    <div class="menu__price price">$49.00</div>
+                  </div>
+                  <div class="menu__description">
+                    <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="page__reservation reservation">
+      <div class="reservation__container">
+          <div class="reservation__content">
+             <div class="reservation__wrapper">
+              <div class="reservation__form form">
+                  <div class="form__info">
+                      <div class="form__title title">Online Reservation</div>
+                      <div class="form__request subtitle">
+                          Booking request <a href="tel:88123123456" class="form__phone">+88-123-123456</a> or fill
+                          out the order
+                          form
+                      </div>
+                  </div>
+                  <div class="form__input">
+                      <div class="input__box">
+                          <div class="input__wrapper">
+                              <input type="text" class="service__name" placeholder="Your Name">
+                          </div>
+                          <div class="input__wrapper">
+                              <input type="text" class="service__phone" placeholder="Phone Number">
+                          </div>
+                          <div class="input__wrapper input__wrapper_person">
+                              <span class="input__icon"><i class="fa-regular fa-user"></i></span>
+                              <span class="input__arrow"><i class="fa-solid fa-caret-down"></i></span>
+                              <select class="service__items service__left-icon">
+                                  <option>1 Person</option>
+                                  <option>2 Person</option>
+                                  <option>3 Person</option>
+                                  <option>4 Person</option>
+                                  <option>5 Person</option>
+                                  <option>6 Person</option>
+                                  <option>7 Person</option>
+                              </select>
+                          </div>
+                          <div class="input__wrapper input__wrapper_date">
+                              <span class="input__icon"><i class="fa-solid fa-calendar"></i></span>
+                              <input class="service__date service__left-icon" type="date"
+                                  placeholder="DD-MM-YYYY">
+                              <span class="input__arrow"><i class="fa-solid fa-caret-down"></i></span>
+                          </div>
+                          <div class="input__wrapper input__wrapper_time">
+                              <span class="input__icon"><i class="fa-regular fa-clock"></i></span>
+                              <span class="input__arrow"><i class="fa-solid fa-caret-down"></i></span>
+                              <select class="service__clock service__left-icon">
+                                  <option>08 : 00 am</option>
+                                  <option>09 : 00 am</option>
+                                  <option>10 : 00 am</option>
+                                  <option>11 : 00 am</option>
+                                  <option>12 : 00 pm</option>
+                                  <option>13 : 00 pm</option>
+                                  <option>14 : 00 pm</option>
+                                  <option>15 : 00 pm</option>
+                                  <option>16 : 00 pm</option>
+                                  <option>17 : 00 pm</option>
+                                  <option>18 : 00 pm</option>
+                                  <option>19 : 00 pm</option>
+                                  <option>20 : 00 pm</option>
+                                  <option>21 : 00 pm</option>
+                                  <option>22 : 00 pm</option>
+                              </select>
+                          </div>
+                          <div class="input__wrapper input__wrapper_message">
+                              <textarea class="service__area" name="fieldname" placeholder="Message"></textarea>
+                          </div>
+                      </div>
+                      <a href="" class="service__btn btn-1">
+                          <div class="btn__text-one black">book a table</div>
+                          <div class="btn__text-two sand-big">book a table</div>
+                      </a>
+                  </div>
+              </div>
+              <div class="reservation__contact contact">
+                  <div class="reservation__inner inner">
+                      <div class="reservation__toptitle toptitle">Hot deal</div>
+                      <div class="reservation__title title">Lunch & Dinner Specials</div>
+                      <div class="reservation__box">
+                          <div class="reservation__discount discount">
+                              <div class="discount__toptitle">up to</div>
+                              <div class="discount__num">45%</div>
+                              <div class="discount__subtitle">discount</div>
+                          </div>
+                          <div class="reservation__info">
+                              <div class="reservation__text">• Not valid for online order</div>
+                              <div class="reservation__text">• Non-refundable</div>
+                              <div class="reservation__text">• Offer end on 25 Jan</div>
+                          </div>
+                          <a href="" class="reservation__btn btn-1">
+                              <div class="btn__text-one black">book now</div>
+                              <div class="btn__text-two sand">book now</div>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+             </div>
+          </div>
+      </div>
+  </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__content">
+        <div class="footer__col footer__col_info">
+          <a href="" class="footer__logo"><img src="i/logo.png" alt=""></a>
+          <div class="footer__info info">
+            <ul class="info__text">
+              <li class="info__item">Restaurant St, Delicious City, London 9578, UK</li>
+              <li class="info__item"><a href="mailto:booking@domainname.com" class="info__link">booking@domainname.com</a>
+              </li>
+              <li class="info__item"><a href="tel:88123123456" class="info__link">Booking Request : +88-123-123456</a>
+              </li>
+              <li class="info__item">Open : 09:00 am - 01:00 pm</li>
+            </ul>
+            <div class="footer__separator separator">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="footer__news news">
+              <div class="news__title">Get News & Offers</div>
+              <div class="news__text">Subscribe us & Get <span class="news__select">25% Off.</span></div>
+            </div>
+            <div class="footer__form">
+              <input type="email" class="footer__input" placeholder="Your email" required>
+              <button class="footer__btn btn-1">
+                <div class="btn__text-one black">subscribe</div>
+                <div class="btn__text-two sand">subscribe</div>
+              </button>
+            </div>
+  
+          </div>
+        </div>
+        <div class="footer__col footer__col_link-1">
+          <ul class="footer__links">
+            <li class="footer__box"><a href="index.html" class="footer__link link">Home</a></li>
+            <li class="footer__box"><a href="menu-list-1.html" class="footer__link link">Menus</a></li>
+            <li class="footer__box"><a href="about.html" class="footer__link link">About us</a></li>
+            <li class="footer__box"><a href="chefs.html" class="footer__link link">Our chefs</a></li>
+            <li class="footer__box"><a href="contact.html" class="footer__link link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col footer__col_link-2">
+          <ul class="footer__links">
+            <li class="footer__box"><a href="" class="footer__link link">facebook</a></li>
+            <li class="footer__box"><a href="" class="footer__link link">instagram</a></li>
+            <li class="footer__box"><a href="" class="footer__link link">Twitter</a></li>
+            <li class="footer__box"><a href="" class="footer__link link">Youtube</a></li>
+            <li class="footer__box"><a href="" class="footer__link link">Google map</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        &copy;2022 Restaurt. All Rights Reserved | Crafted by
+        <a href="https://themeforest.net" target="_blank">Kalanidhi Themes</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--  JavaScript here -->
+  <!-- <script src="js/app.js"></script> -->
+
+
+  <!-- SWIPER -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- FONT AWESOME -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+    integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- FLATPICKR -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>

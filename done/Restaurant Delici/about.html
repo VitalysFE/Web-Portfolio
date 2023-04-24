@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Delici</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <!-- FLATPICKR -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<header class="header">
+
+    <!-- MOBILE BAR START -->
+    <div class="mobile__bar">
+        <div class="mobile__content">
+
+            <ul class="mobile__menu">
+                <a href="index.html" class="mobile__logo"><img src="i/logo.png" alt=""></a>
+                <li class="mobile__item"><a href="#" class="mobile__link small-link">Home</a></li>
+                <li id="mobileMenu" class="mobile__item mobile__item_dropdown mobile__link_icon">
+                    <a href="#" class="mobile__link small-link">Menus</a>
+                </li>
+                <ul id="dropdown-mobile" class="dropdown-mobile">
+                    <li class="mobile__item mobile__item_decor"><a href="menu-list-1.html"
+                            class="mobile__link small-link">Menu List 1</a></li>
+                    <li class="mobile__item mobile__item_decor"><a href="menu-list-2.html"
+                            class="mobile__link small-link">Menu List 2</a></li>
+                    <li class="mobile__item mobile__item_decor"><a href="menu-list-3.html"
+                            class="mobile__link small-link">Menu List 3</a></li>
+                    <li class="mobile__item mobile__item_decor"><a href="menu-list-4.html"
+                            class="mobile__link small-link">Menu List 4</a></li>
+                </ul>
+
+                <li class="mobile__item"><a href="about.html" class="mobile__link small-link">About us</a></li>
+                <li class="mobile__item"><a href="chefs.html" class="mobile__link small-link">Our chefs</a></li>
+                <li class="mobile__item"><a href="contact.html" class="mobile__link small-link">Contact</a></li>
+            </ul>
+            <div class="mobile__info">
+                <div class="mobile__title">Visit us</div>
+                <div class="mobile__text">
+                    <p>Restaurant St, Delicious City, London 9578, UK</p>
+                    <p>Open: 9.30 am - 2.30pm</p>
+                    <p><a href="mailto:booking@domainame.com" class="mobile__mail">booking@domainame.com</a></p>
+                </div>
+                <div class="mobile__decor"></div>
+                <div class="mobile__contacts">
+                    <div class="contacts__title subtitle">Booking request</div>
+                    <a href="tel:88123123456" class="contacts__phone phone-big">+88-123-123456</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MOBILE BAR END -->
+
+    <div class="header__content">
+        <div class="header__top">
+            <div class="header__top-left">
+                <span class="location">Restaurant St, Delicious City, London 9578, UK</span>
+                <span class="time">Daily : 8.00 am to 10.00 pm</span>
+            </div>
+            <div class="header__top-right">
+                <a href="tel:11234567890" class="phone">+1 123 456 7890</a>
+                <a href="mailto:booking@restaurant.com" class="mail">booking@restaurant.com</a>
+            </div>
+        </div>
+        <div class="header__lower lower">
+            <a href="index.html" class="lower__logo"><img src="i/logo.png" alt="delici logo"></a>
+            <div class="lower__menu-content">
+                <ul class="lower__menu">
+                    <li class="lower__item"><a href="index.html" class="lower__link link">Home</a></li>
+                    <li class="lower__item">
+                        <a href="#" id="menuLink" class="lower__link link lower__link_icon">Menus</a>
+                    </li>
+                    <li class="lower__item"><a href="about.html" class="lower__link link">About us</a></li>
+                    <li class="lower__item"><a href="chefs.html" class="lower__link link">Our chefs</a></li>
+                    <li class="lower__item"><a href="contact.html" class="lower__link link">Contact</a></li>
+                </ul>
+
+                <a href="reservation.html" class="lower__btn btn-1">
+                    <div class="btn__text-one black">Find a table</div>
+                    <div class="btn__text-two sand">Find a table</div>
+                </a>
+            </div>
+            <div class="burger__btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- DROPDOWN MENU START -->
+    <div id="dropdown-menu__box" class="dropdown-menu__box">
+        <ul class="dropdown-menu">
+            <div class="dropdown-menu__content">
+                <div class="dropdown-menu__inner">
+                    <li class="dropdown__item">
+                        <a href="menu-list-1.html" class="dropdown__img"><img src="i/header/01.jpg" alt=""></a>
+                        <span class="dropdown__title">Menu list 1</ы>
+                    </li>
+                    <li class="dropdown__item">
+                        <a href="menu-list-2.html" class="dropdown__img"><img src="i/header/02.jpg" alt=""></a>
+                        <span class="dropdown__title">Menu list 2</span>
+                    </li>
+                    <li class="dropdown__item">
+                        <a href="menu-list-3.html" class="dropdown__img"><img src="i/header/03.jpg" alt=""></a>
+                        <span class="dropdown__title">Menu list 3</span>
+                    </li>
+                    <li class="dropdown__item">
+                        <a href="menu-list-4.html" class="dropdown__img"><img src="i/header/04.jpg" alt=""></a>
+                        <span class="dropdown__title">Menu list 4</span>
+                    </li>
+
+                </div>
+            </div>
+
+        </ul>
+    </div>
+    <!-- DROPDOWN MENU END -->
+</header>
+
+    <main class="page">
+        <div class="page__banner_about banner">
+            <div class="banner__content">
+                <div class="banner__container">
+                    <div class="banner__info">
+                        <div class="banner__toptitle toptitle">OUR STORY</div>
+                        <div class="banner__decor decor"><img src="i/separator.svg" alt=""></div>
+                        <div class="banner__title title">About Us</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page__who who">
+            <div class="who__container">
+                <div class="who__content">
+                    <div class="who__info">
+                        <div class="who__toptitle toptitle">WHO WE ARE</div>
+                        <div class="who__decor decor"><img src="i/separator.svg" alt=""></div>
+                        <div class="who__short">
+                            <p>A modern restaurant with a menu that will make your mouth water. Servicing delicious food
+                                <span>since 45 years.</span> Enjoy our
+                                seasonal menu and experience the beauty of naturalness
+                            </p>
+                        </div>
+                    </div>
+                    <div class="who__wrapper">
+                        <div class="who__col">
+                            <div class="who__description small-text">
+                                <p>Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum
+                                    has
+                                    been the industrys standard
+                                    dummy text ever since the when an unknown printer took a galley of type and
+                                    scrambled it
+                                    to make a type specimen book It
+                                    has survived.</p>
+                            </div>
+                            <div class="who__signature-box">
+                                <div class="who__signature"><img src="i/about/signature-1.png" alt=""></div>
+                                <div class="who__toptitle toptitle">ANDREW JOE - FOUNDER</div>
+                            </div>
+                            <a href="" class="who__img"><img src="i/featured/03.jpg" alt=""></a>
+                        </div>
+                        <div class="who__col">
+                            <div class="who__img">
+                                <img src="i/about/01.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="who__col">
+                            <div class="who__data-box">
+                                <div class="who__data">
+                                    <div class="who__subtitle subtitle">Lunch Time</div>
+                                    <div class="who__text">
+                                        <span>Monday to Sunday</span>
+                                        <span>11.00 am - 2.30pm</span>
+                                    </div>
+                                </div>
+                                <div class="who__data">
+                                    <div class="who__subtitle subtitle">Dinner Time</div>
+                                    <div class="who__text">
+                                        <span>Monday to Sunday</span>
+                                        <span>5.30 pm - 11.30 pm</span>
+                                    </div>
+                                </div>
+                                <div class="who__decor decor-2"></div>
+                                <div class="who__data">
+                                    <div class="who__subtitle subtitle">Contact Us</div>
+                                    <div class="who__text">
+                                        <span>Restaurant St, Delicious City,</span>
+                                        <span>London 9578, UK</span>
+                                    </div>
+                                    <a href="tel:88123123456" class="who__link">+88-123-123456</a>
+                                    <a href="mailto:reservation@restro.com" class="who__link">reservation@restro.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro__counter counter">
+                        <div class="counter__inner">
+                            <div class="counter__item">
+                                <span class="counter__num" data-target="150"></span>
+                                <span class="counter__sign">+</span>
+                                <span class="counter__text">daily order</span>
+                            </div>
+                            <div class="counter__item">
+                                <span class="counter__num" data-target="82"></span>
+                                <span class="counter__sign">+</span>
+                                <span class="counter__text">Special Dishes</span>
+                            </div>
+                            <div class="counter__item">
+                                <span class="counter__num" data-target="35"></span>
+                                <span class="counter__sign">+</span>
+                                <span class="counter__text">expert chef</span>
+                            </div>
+                            <div class="counter__item">
+                                <span class="counter__num" data-target="10"></span>
+                                <span class="counter__sign">+</span>
+                                <span class="counter__text">awards won</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__experience_1 experience">
+            <div class="experience__content">
+                <div class="experience__wrapper">
+                    <div class="experience__left">
+                        <div class="experience__img"><img src="i/about/image-5.jpg" alt=""></div>
+                    </div>
+                    <div class="experience__right">
+                        <div class="experience__box">
+                            <div class="experience__toptitle toptitle">35 YEAR OF EXPERIENCE</div>
+                            <div class="experience__decor decor"><img src="i/separator.svg" alt=""></div>
+                            <div class="experience__title title">Award Winning Chef</div>
+                            <div class="experience__text">
+                                <p>Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum
+                                    has
+                                    been the industrys standard dummy text ever since the when an unknown printer took a
+                                    galley of type.</p>
+                            </div>
+                            <div class="experience__signature"><img src="i/about/signature-2.png" alt=""></div>
+                            <div class="experience__toptitle toptitle">HENRY - EXCUTIVE CHEF</div>
+                            <a href="" class="experience__btn btn-2">
+                                <div class="btn__text-one">meet our team</div>
+                                <div class="btn__text-two">meet our team</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__experience_2 experience">
+            <div class="experience__content">
+                <div class="experience__wrapper">
+                    <div class="experience__left inversion-left">
+                        <div class="experience__img"><img src="i/about/image-6.jpg" alt=""></div>
+                    </div>
+                    <div class="experience__right">
+                        <div class="experience__box">
+                            <div class="experience__toptitle toptitle">DELIGHTFUL EXPERIENCE</div>
+                            <div class="experience__decor decor"><img src="i/separator.svg" alt=""></div>
+                            <div class="experience__title title">Dinner, Event or Party?</div>
+                            <div class="experience__text">
+                                <p>Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum
+                                    has
+                                    been the industrys standard dummy text ever since the when an unknown printer took a
+                                    galley of type.</p>
+                            </div>
+                            <a href="" class="experience__btn btn-2">
+                                <div class="btn__text-one">Discover Now</div>
+                                <div class="btn__text-two">Discover Now</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__services services">
+            <div class="services__container">
+                <div class="services__content">
+                    <div class="services__info">
+                        <div class="services__toptitle toptitle">our services</div>
+                        <div class="services__decor decor"><img src="i/separator.svg" alt=""></div>
+                        <div class="services__title title">Exquisite Restaurant in City</div>
+                    </div>
+                    <div class="services__box">
+                        <div class="services__col">
+                            <div class="services__item">
+                                <div class="services__icon"><img src="i/about/s-icon-1.png" alt=""></div>
+                                <div class="services__data">
+                                    <div class="services__name">Door Delivery</div>
+                                    <div class="services__description small-text">
+                                        <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has
+                                            been.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__item">
+                                <div class="services__data services__data_inversion">
+                                    <div class="services__name">Fine Dining</div>
+                                    <div class="services__description small-text">
+                                        <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has
+                                            been.</p>
+                                    </div>
+                                </div>
+                                <div class="services__icon services__icon_inversion "><img src="i/about/s-icon-2.png"
+                                        alt=""></div>
+                            </div>
+                        </div>
+                        <div class="services__col">
+                            <div class="services__img">
+                                <img src="i/about/service-image.png" alt="">
+                            </div>
+                        </div>
+                        <div class="services__col">
+                            <div class="services__item">
+                                <div class="services__data services__data_inversion">
+                                    <div class="services__name">Fine Dining</div>
+                                    <div class="services__description small-text">
+                                        <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has
+                                            been.</p>
+                                    </div>
+                                </div>
+                                <div class="services__icon services__icon_inversion"><img src="i/about/s-icon-3.png"
+                                        alt=""></div>
+                            </div>
+                            <div class="services__item">
+                                <div class="services__icon"><img src="i/about/s-icon-4.png" alt=""></div>
+                                <div class="services__data">
+                                    <div class="services__name">Door Delivery</div>
+                                    <div class="services__description small-text">
+                                        <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has
+                                            been.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__testemonials-2 testemonials-2">
+            <div class="testemonials-2__container">
+                <div class="testemonials-2__content">
+                    <div class="testemonials-2__info">
+                        <div class="testemonials-2__toptitle toptitle">TESTIMONIALS</div>
+                        <div class="testemonials-2__decor decor"><img src="i/separator.svg" alt=""></div>
+                        <div class="testemonials-2__title title">What People Are Saying</div>
+                    </div>
+                    <!-- SLIDER -->
+                    <div class="testemonials-2__slider swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="testemonials-2__wrapper swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="testemonials-2__slide swiper-slide">
+                                <div class="testemonials-2__rating">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                </div>
+                                <div class="testemonials-2__text">
+                                    <p>The taste of food was really amazing, Wow ! outstanding dinner made by Mater chef
+                                        John Rute, I never forget this delicious food experience.</p>
+                                </div>
+                                <div class="testemonials-2__box">
+                                    <div class="testemonials-2__img"><img src="i/testimonials/01.jpg" alt=""></div>
+                                    <div class="testemonials-2__data">
+                                        <div class="testemonials-2__name toptitle">willium joe</div>
+                                        <div class="testemonials-2__location small-text">New York</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testemonials-2__slide swiper-slide">
+                                <div class="testemonials-2__rating">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                </div>
+                                <div class="testemonials-2__text">
+                                    <p>Special treat to dine, It was wow experience food was really delicious!
+                                        outstanding dinner made by Mater chef, food experience was unfogetable!</p>
+                                </div>
+                                <div class="testemonials-2__box">
+                                    <div class="testemonials-2__img"><img src="i/testimonials/02.jpg" alt=""></div>
+                                    <div class="testemonials-2__data">
+                                        <div class="testemonials-2__name toptitle">Michel Byrd</div>
+                                        <div class="testemonials-2__location small-text">Denmark</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testemonials-2__slide swiper-slide">
+                                <div class="testemonials-2__rating">
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                    <span><i class="fa-solid fa-star"></i></span>
+                                </div>
+                                <div class="testemonials-2__text">
+                                    <p>Hygienic food & fresh enviroment, everyone had a wonderful delite experience. It
+                                        was FABULOUS! great experience at The Italian gourmet.</p>
+                                </div>
+                                <div class="testemonials-2__box">
+                                    <div class="testemonials-2__img"><img src="i/testimonials/03.jpg" alt=""></div>
+                                    <div class="testemonials-2__data">
+                                        <div class="testemonials-2__name toptitle">Theresa Tin</div>
+                                        <div class="testemonials-2__location small-text">Chicago</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testemonials-2__bullets bullets swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="page__why-2 why-2">
+            <div class="why-2__container">
+                <div class="why-2__content">
+                    <div class="why-2__info">
+                        <div class="why-2__toptitle toptitle">WHY CHOOSE US</div>
+                        <div class="why-2__decor decor"><img src="i/separator.svg" alt=""></div>
+                        <div class="why-2__title title">Our Strength</div>
+                    </div>
+                    <div class="why-2__cards">
+                        <div class="why-2__card">
+                            <div class="why-2__img"><img src="i/about/featured-4.jpg" alt=""></div>
+                            <div class="why-2__box">
+                                <div class="why-2__icon"><img src="i/why/01.png" alt=""></div>
+                                <div class="why-2__text">Hygienic Food</div>
+                            </div>
+                        </div>
+                        <div class="why-2__card">
+                            <div class="why-2__img"><img src="i/about/featured-5.jpg" alt=""></div>
+                            <div class="why-2__box">
+                                <div class="why-2__icon"><img src="i/why/02.png" alt=""></div>
+                                <div class="why-2__text">Hygienic Food</div>
+                            </div>
+                        </div>
+                        <div class="why-2__card">
+                            <div class="why-2__img"><img src="i/about/featured-6.jpg" alt=""></div>
+                            <div class="why-2__box">
+                                <div class="why-2__icon"><img src="i/why/03.png" alt=""></div>
+                                <div class="why-2__text">Hygienic Food</div>
+                            </div>
+                        </div>
+                        <div class="why-2__card">
+                            <div class="why-2__img"><img src="i/about/featured-7.jpg" alt=""></div>
+                            <div class="why-2__box">
+                                <div class="why-2__icon"><img src="i/why/04.png" alt=""></div>
+                                <div class="why-2__text">Hygienic Food</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__gallery gallery">
+            <div class="gallery__container">
+                <div class="gallery__content">
+                    <div class="gallery__slider swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="gallery__wrapper swiper-wrapper">
+                            <!-- Slides -->
+
+                            <div class="gallery__slide swiper-slide">
+                                <a data-fslightbox="gallery" href="i/about/gallery-1.jpg">
+                                    <img src="i/about/gallery-1.jpg" alt="">
+                                </a>
+                            </div>
+
+                            <div class="gallery__slide swiper-slide">
+                                <a data-fslightbox="gallery" href="i/about/gallery-2.jpg">
+                                    <img src="i/about/gallery-2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery__slide swiper-slide">
+                                <a data-fslightbox="gallery" href="i/about/gallery-3.jpg">
+                                    <img src="i/about/gallery-3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery__slide swiper-slide">
+                                <a data-fslightbox="gallery" href="i/about/gallery-4.jpg">
+                                    <img src="i/about/gallery-4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery__slide swiper-slide">
+                                <a data-fslightbox="gallery" href="i/about/gallery-5.jpg">
+                                    <img src="i/about/gallery-5.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery__slide swiper-slide">
+                                <a data-fslightbox="gallery" href="i/about/gallery-6.jpg">
+                                    <img src="i/about/gallery-6.jpg" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="gallery__bullets swiper-pagination bullets"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <!-- <div class="gallery__prev prev swiper-button-prev"></div>
+                        <div class="gallery__next next swiper-button-next"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__col footer__col_info">
+                    <a href="" class="footer__logo"><img src="i/logo.png" alt=""></a>
+                    <div class="footer__info info">
+                        <ul class="info__text">
+                            <li class="info__item">Restaurant St, Delicious City, London 9578, UK</li>
+                            <li class="info__item"><a href="mailto:booking@domainname.com"
+                                    class="info__link">booking@domainname.com</a></li>
+                            <li class="info__item"><a href="tel:88123123456" class="info__link">Booking Request :
+                                    +88-123-123456</a></li>
+                            <li class="info__item">Open : 09:00 am - 01:00 pm</li>
+                        </ul>
+                        <div class="footer__separator separator">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="footer__news news">
+                            <div class="news__title">Get News & Offers</div>
+                            <div class="news__text">Subscribe us & Get <span class="news__select">25% Off.</span></div>
+                        </div>
+                        <div class="footer__form">
+                            <input type="email" class="footer__input" placeholder="Your email" required>
+                            <button class="footer__btn btn-1">
+                                <div class="btn__text-one black">subscribe</div>
+                                <div class="btn__text-two sand">subscribe</div>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer__col footer__col_link-1">
+                    <ul class="footer__links">
+                        <li class="footer__box"><a href="index.html" class="footer__link link">Home</a></li>
+                        <li class="footer__box"><a href="menu-list-1.html" class="footer__link link">Menus</a></li>
+                        <li class="footer__box"><a href="about.html" class="footer__link link">About us</a></li>
+                        <li class="footer__box"><a href="chefs.html" class="footer__link link">Our chefs</a></li>
+                        <li class="footer__box"><a href="contact.html" class="footer__link link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col footer__col_link-2">
+                    <ul class="footer__links">
+                        <li class="footer__box"><a href="" class="footer__link link">facebook</a></li>
+                        <li class="footer__box"><a href="" class="footer__link link">instagram</a></li>
+                        <li class="footer__box"><a href="" class="footer__link link">Twitter</a></li>
+                        <li class="footer__box"><a href="" class="footer__link link">Youtube</a></li>
+                        <li class="footer__box"><a href="" class="footer__link link">Google map</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                &copy;2022 Restaurt. All Rights Reserved | Crafted by
+                <a href="https://themeforest.net" target="_blank">Kalanidhi Themes</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  JavaScript here -->
+    <!-- <script src="js/app.js"></script> -->
+
+    <!-- LIGHTBOX -->
+    <script src="js/fslightbox.js"></script>
+    <!-- SWIPER -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- FONT AWESOME -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+        integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- FLATPICKR -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
